@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.butoff.secretsanta">
+
+    <application
+        android:name="io.butoff.secretsanta.SecretSantaApplication"
+        android:icon="@mipmap/animals"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity android:name="io.butoff.secretsanta.MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.EVOTOR" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="ru.evotor.launcher.BACKGROUND_COLOR"
+                android:value="#67A420" />
+
+        </activity>
+
+    </application>
+
+</manifest>

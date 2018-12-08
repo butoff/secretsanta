@@ -1,0 +1,14 @@
+﻿[
+	{
+		"name": "Пупкин Василий",
+		"mail": "v.poupkine@santamail.ru",
+		"name_to": "Головач Лена",
+		"mail_to": "l.golovach@santamail.ru"
+	},
+	{
+		"name": "Головач Лена",
+		"mail": "l.golovach@santamail.ru",
+		"name_to": "Пупкин Василий",
+		"mail_to": "v.poupkine@santamail.ru"
+	}
+]
